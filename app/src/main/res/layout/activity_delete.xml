@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="24dp"
+    tools:context="com.example.navdrawerexample.DeleteActivity">
+
+    <ImageView
+        android:layout_height="200dp"
+        android:layout_width="200dp"
+        android:src="@drawable/delete_icon"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product ID:"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:inputType="number"
+            android:id="@+id/pId"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:text="Delete Row"
+        android:background="#574A2B"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:id="@+id/deleteBtn"/>
+</LinearLayout>
+

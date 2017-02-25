@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.navdrawerexample.ShowProducts">
+
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="6dp"
+        android:id="@+id/title"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="50dp"
+            android:textStyle="bold"
+            android:text="ID"
+            android:textColor="#0EB7D9"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginLeft="4dp"
+            android:textColor="#0EB7D9"
+            android:text="PRODUCT NAME"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="4dp"
+            android:text="PRICE"
+            android:textColor="#0EB7D9"
+            />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/list"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:divider="#574A2B"
+        android:dividerHeight="1dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CECEF6"
+    tools:context="com.example.navdrawerexample.ProductDetails">
+
+    <LinearLayout
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp">
+
+        <TextView
+        android:id="@+id/product_id"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:background="@drawable/id_circle"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="8.9" />
+
+        <TextView
+            android:layout_height="70dp"
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:id="@+id/product_name"
+            android:text="product name"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            />
+
+    <TextView
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        android:id="@+id/product_price"
+        android:text="120"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/increase"
+            android:id="@+id/increaseP"
+            />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/decrease"
+            android:id="@+id/decreaseP"
+            android:layout_marginLeft="50dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <ImageButton
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/update"
+            android:id="@+id/edit_imgBtn"
+            android:background="#CECEF6"
+            />
+
+        <ImageButton
+            android:layout_marginLeft="50dp"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:background="#CECEF6"
+
+            android:id="@+id/delete_img"
+            android:src="@drawable/delete"
+            />
+
+        </LinearLayout>
+
+</LinearLayout>
+

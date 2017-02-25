@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_query1"
+            android:icon="@drawable/query_all"
+            android:title="Show All Products" />
+        <item
+            android:id="@+id/nav_insert"
+            android:icon="@drawable/insert"
+            android:title="Insert product" />
+
+        <item
+            android:id="@+id/nav_delete"
+            android:icon="@drawable/delete_row"
+            android:title="Delete product" />
+
+        <item
+            android:id="@+id/nav_update"
+            android:icon="@drawable/delete_row"
+            android:title="Update product" />
+    </group>
+
+    <item android:title="General">
+        <menu>
+            <item
+                android:id="@+id/nav_createdb"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Create Db" />
+
+            <item
+                android:id="@+id/nav_deletedb"
+                android:icon="@drawable/delete_db"
+                android:title="Delete DB" />
+            </menu>
+             </item>
+        </menu>
+

@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="24dp"
+    android:layout_marginTop="35dp"
+    tools:context="com.example.navdrawerexample.UpdateActivity">
+
+    <LinearLayout
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product ID:"
+            android:textStyle="bold"
+            android:gravity="center_vertical"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_marginLeft="24dp"
+            android:id="@+id/pId"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name:"
+            android:textStyle="bold"
+            android:gravity="center_vertical"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:id="@+id/pName"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Price:"
+            android:textStyle="bold"
+            android:gravity="center_vertical"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="numberDecimal"
+            android:id="@+id/pPrice"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:text="Update Row"
+        android:background="#574A2B"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:id="@+id/updateBtn"/>
+</LinearLayout>
